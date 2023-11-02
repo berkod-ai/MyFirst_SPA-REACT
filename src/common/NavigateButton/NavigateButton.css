@@ -1,0 +1,11 @@
+.navigateButtonDesign {
+
+    height: 2.5em;
+    width: 7em;
+
+    border-radius: 60%;
+
+    background-color: darkcyan;
+    color: beige;
+    font-weight: bold;
+}

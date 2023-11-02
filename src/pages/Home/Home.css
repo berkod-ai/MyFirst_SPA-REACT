@@ -1,0 +1,18 @@
+.homeDesign {
+
+    height: 90vh;
+    width: 100vw;
+
+    background-color: darkblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcaseCharacters {
+
+    display: flex;
+    flex-wrap: wrap;
+}

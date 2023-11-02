@@ -1,0 +1,25 @@
+.headerDesign {
+
+    height: 10vh;
+    width: 100vw;
+
+    background-color: lightcoral;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.headerLink {
+
+    color: rgb(224, 0, 0);
+    font-weight: bolder;
+    margin-right: 1em;
+    cursor: pointer;
+
+}
+
+.headerLink:hover {
+    background-color: grey;
+}
