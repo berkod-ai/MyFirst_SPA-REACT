@@ -32,7 +32,7 @@ export const Home = () => {
     }, [characters]);
 
     return (
-        <div className="homeDesign"> 
+        <div className="homeDesign">
             {/*<NavigateButton
                 path={"/login"}
                 name={"Login"} 
@@ -45,25 +45,29 @@ export const Home = () => {
             {
                 characters.length > 0
 
-                    ? (<div className="showcaseCharacters"> 
+                    ? (<div className="showcaseCharacters">
                         {
 
-                           characters.map(
+                            characters.map(
                                 character => {
                                     return (
-                                        <CharacterDesign 
-                                            key={character.id}
-                                            name={character.name}
-                                            image={character.image}
+                                        <div key={character.id}
+                                            onClick={() =>
+                                                console.log(character)}>
+                                            <CharacterDesign
+                                                name={character.name}
+                                                image={character.image}
                                             />
+                                        </div>
+
                                     )
                                 }
                             )
 
                         }
-                        
-                        
-                        </div>)
+
+
+                    </div>)
 
                     : (<div> aun no han llegado </div>)
             }
