@@ -81,7 +81,7 @@ export const Login = () => {
             />
             {credentialsError.emailError}
             <CustomInput
-                design= {
+                design={
                     credentialsError.passwordError === ""
                         ? "normalDesign"
                         : "errorDesign"

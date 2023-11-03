@@ -3,6 +3,18 @@ export const check = (type, value) => {
 
     switch (type) {
 
+        case "name":
+        case "surname":
+        case "birth":
+        case "city":
+        case "country":
+
+            if (value === "") {
+                return `El campo ${type} no debe de estar vacio`;
+            } else {
+                return "";
+            }
+
         case "email":
         case "correo":
         case "e-mail":
@@ -14,7 +26,9 @@ export const check = (type, value) => {
             }
 
         case "password":
+        case "password2":
         case "contraseña":
+        case "contraseña2":
 
             if (value.length < 8) {
                 return "El password no debe estar menos de 8 caracteres";
