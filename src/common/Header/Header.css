@@ -3,7 +3,7 @@
     height: 10vh;
     width: 100vw;
 
-    background-color: lightcoral;
+    background-color: antiquewhite;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
 
 .headerLink {
 
-    color: rgb(224, 0, 0);
+    color: blue;
     font-weight: bolder;
     margin-right: 1em;
     cursor: pointer;

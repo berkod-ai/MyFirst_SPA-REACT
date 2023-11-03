@@ -5,3 +5,12 @@
 
     margin-bottom: 1.5em;
 }
+
+.errorDesign {
+    border-radius: 10em;
+    width: 19em;
+    height: 2.5em;
+
+    margin-bottom: 1.5em;
+    border: 0.2em solid red;
+}
